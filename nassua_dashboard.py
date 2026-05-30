@@ -4,9 +4,7 @@ import streamlit as st
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv(
-    r'C:\Users\Samsung\Desktop\Nassau_Candy_Distributor1.csv'
-)
+df = pd.read_csv("Nassau_Candy_Distributor1.csv")
 
 # Title
 st.title("Nassau Candy Factory Optimization Dashboard")
